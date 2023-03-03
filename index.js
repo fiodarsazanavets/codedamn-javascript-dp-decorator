@@ -8,15 +8,11 @@ gun.reload();
 gun.shoot();
 gun.shoot();
 
-console.log('Applying a silencer.');
-var silencer = new Silencer();
-silencer.setGun(gun);
+// Apply silencer here
 silencer.shoot();
 silencer.shoot();
 
-console.log('Applying an extended magazine.');
-var extendedMag = new ExtendedMagazine();
-extendedMag.setGun(silencer);
+// Apply an extended magazine here
 extendedMag.reload();
 extendedMag.shoot();
 extendedMag.shoot();
